@@ -29,6 +29,11 @@
 
 .preference__minus-button,
 .preference__plus-button {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   @include themify() {
     @extend %preferences-button;
     width: #{32 / $base-font-size}rem;
